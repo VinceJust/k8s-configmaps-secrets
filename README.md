@@ -66,8 +66,6 @@ Stattdessen enthält das Repo:
 
 ## Screenshots
 
-Im Ordner `screenshots/` findest du:
-
 - `resources.png` – zeigt kubectl get mit allen Komponenten
   ![kubectl get all components](screenshots/resources.png)
 
