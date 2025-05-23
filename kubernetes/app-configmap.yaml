@@ -1,0 +1,11 @@
+# kubernetes/app-configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-app-config
+data:
+  GREETING_MESSAGE: "Hello from ConfigMap!"
+  LOG_LEVEL: "info"
+  app.properties: |
+    timeout=30
+    featureX=true
